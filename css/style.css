@@ -1,3 +1,9 @@
+body {
+    color: #333;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 40px 0;
+    padding: 0 40px;
+}
 .button {
     background-color: #00823b;
     position: relative;
@@ -25,3 +31,17 @@
     box-sizing: border-box;
     vertical-align: top;
 }
+.button-start {
+    font-family: "nta", Arial, sans-serif;
+    font-weight: 700;
+    text-transform: none;
+    font-size: 18px;
+    line-height: 1.2;
+    background-image: url(https://govuk-elements.herokuapp.com/public/images/icon-pointer.png);
+    background-repeat: no-repeat;
+    background-position: 100% 50%;
+    padding: 0.36842em 2.15789em 0.21053em 0.84211em;
+}
+/*help classes*/
+.hide{display: none}
+.m2{margin-bottom: 2rem}
