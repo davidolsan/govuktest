@@ -42,6 +42,13 @@ body {
     background-position: 100% 50%;
     padding: 0.36842em 2.15789em 0.21053em 0.84211em;
 }
+/*Responsive grid*/
+@media (min-width: 641px){
+    .column-half, .column-one-half {
+        float: left;
+        width: 50%;
+    }
+}
 /*help classes*/
 .hide{display: none}
 .m2{margin-bottom: 2rem}
